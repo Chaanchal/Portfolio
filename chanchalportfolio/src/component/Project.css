@@ -1,0 +1,14 @@
+.project{
+    background-color: black;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.projCard{
+    position: relative;
+}
+.projImg{
+    height: 100%;
+    width: auto;
+}

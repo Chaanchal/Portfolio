@@ -5,7 +5,7 @@ class Contact extends Component{
     render(){
         return(
             <div className="Contact">
-            <div class="card mb-3">
+            {/* <div class="card mb-3">
                 <div class="row no-gutters">
                     <div class="col-md-4">
                     <img src={require("./profile.png")} class="rounded float-right" alt="..." height="250px" width="250px"></img>
@@ -25,8 +25,8 @@ class Contact extends Component{
                     </div>
                     </div>
                 </div>
-            </div>
-            <Timeline />
+            </div> */}
+            {/* <Timeline /> */}
 
             </div>
         );
