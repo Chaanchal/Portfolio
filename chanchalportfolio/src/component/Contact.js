@@ -1,10 +1,31 @@
 import React, {Component } from 'react';
 import Timeline from "./Timeline.js";
+import "./Contact.css";
 import 'react-vertical-timeline-component/style.min.css';
 class Contact extends Component{
     render(){
         return(
             <div className="Contact">
+                <div className="aboutContainer" style={{display: "flex", flexDirection: "row", marginTop: "25xp"}}>
+                    <div> 
+                    <img src={require("./profile.png")} class="rounded mx-auto d-block" alt="..." height="400px" width="400px"></img>
+                    <div className="nameContainer">
+                    <h1>CHANCHAL AGRAWAL</h1>
+                    </div>
+                    </div>
+                    <div className="textContainer" >
+                    <p style={{color: "white", marginLeft: "20%", marginTop: "20%", fontSize: "20px", width: "100%"}}>
+                    Coming from a Computer Engineering background and currently pursuing design, I like connecting dots between a product's aesthetics, engineering, and experience. 
+                    
+                    Human-Computer Interaction graduate student at Rochester Institute of Technology.
+                    I have experience in development and now I would like to work towards enhancing my design skills. 
+                    Currently working as Research Assistant in the Accessibility domain
+                    </p>
+                    </div>
+
+
+                </div>
+
             {/* <div class="card mb-3">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -27,7 +48,6 @@ class Contact extends Component{
                 </div>
             </div> */}
             {/* <Timeline /> */}
-
             </div>
         );
     }

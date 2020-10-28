@@ -7,18 +7,18 @@ class Project extends Component{
     render(){
         return(
             
-            <div className="project" style={{display: 'flex', color: 'Black'}}>
+            // <div className="project" style={{display: 'flex', color: 'Black'}}>
 
-                <div className="projCard" style={{height: '500px'}}>
-                <img src={require("./Test.jpeg")} className="projImg rounded mx-auto d-block" alt="..." ></img>
-                </div>
-                <div className="projCard" style={{height: '400px'}}>
-                <img src={require("./Test.jpeg")} className="projImg rounded mx-auto d-block" alt="..." ></img>
-                </div>
-                <div className="projCard" style={{height: '300px'}}>
-                <img src={require("./Test.jpeg")} className="projImg rounded mx-auto d-block" alt="..." ></img>
-                </div>
-                </div>
+            //     <div className="projCard" style={{height: '500px'}}>
+            //     <img src={require("./Test.jpeg")} className="projImg rounded mx-auto d-block" alt="..." ></img>
+            //     </div>
+            //     <div className="projCard" style={{height: '400px'}}>
+            //     <img src={require("./Test.jpeg")} className="projImg rounded mx-auto d-block" alt="..." ></img>
+            //     </div>
+            //     <div className="projCard" style={{height: '300px'}}>
+            //     <img src={require("./Test.jpeg")} className="projImg rounded mx-auto d-block" alt="..." ></img>
+            //     </div>
+            //     </div>
 // {/*                
 //                 {/* <div class="jumbotron jumbotron-fluid" height="75%">
 //                     <div class="container"  >
@@ -32,7 +32,7 @@ class Project extends Component{
                   
 //                 </div> */}
  
-                    // <ProjectSlider/>
+                    <ProjectSlider/>
 
         );
     }
