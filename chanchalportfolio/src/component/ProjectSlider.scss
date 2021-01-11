@@ -49,7 +49,7 @@ $transform_3D:"perspective(1300px) rotateY(5deg) translate3d(700px, 0px, 0px)",
   width: 100%;
   //max-width:150px;
   height: 100vh;
-  padding-top: 150px;
+  padding-top: 50px;
   // margin:150px auto;
   text-align: center;
   #slider{
@@ -60,7 +60,7 @@ $transform_3D:"perspective(1300px) rotateY(5deg) translate3d(700px, 0px, 0px)",
       color: $white;
       position: absolute;
       width: 500px;
-      //height: 100%;
+      height: 450px;
       // left:50%;
       margin-left:-400px;
       @include shadow(0 -36px 9px -28px $shadow);

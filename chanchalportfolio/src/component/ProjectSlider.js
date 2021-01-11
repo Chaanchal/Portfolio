@@ -69,30 +69,37 @@ class ProjectSlider extends Component{
     render(){ 
         return(
             <div style={{display: "flex", flexDirection: "row" }}>
-            <div id="slider-wrapp">
-                <div id="slider" className="_3D">
-                    <div className="slide"><img src="https://preview.ibb.co/iHdNVn/1.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/mUm9An/2.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/hSL2Vn/3.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/jRAfGS/4.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/ksTNVn/5.jpg"/></div>
-                    {/* <div className="slide"><img src="https://preview.ibb.co/jQhhVn/6.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/fD97wS/7.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/c9jJ37/8.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/iivEbS/9.jpg"/></div>
-                    <div className="slide"><img src="https://preview.ibb.co/fXW9An/10.jpg"/></div> */}
+            <div style={{width: "70%"}}>
+                <div id="slider-wrapp">
+                    <div id="slider" className="_3D">
+                        <div className="slide"><img src="https://preview.ibb.co/iHdNVn/1.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/mUm9An/2.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/hSL2Vn/3.jpg"/></div>
+                        {/* <div className="slide"><img src="https://preview.ibb.co/jRAfGS/4.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/ksTNVn/5.jpg"/></div> */}
+                        {/* <div className="slide"><img src="https://preview.ibb.co/jQhhVn/6.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/fD97wS/7.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/c9jJ37/8.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/iivEbS/9.jpg"/></div>
+                        <div className="slide"><img src="https://preview.ibb.co/fXW9An/10.jpg"/></div> */}
+                    </div>
+                
                 </div>
-               
             </div>
-            <div>
-            <a className="nextBtn"onClick={ this.onClickNext } > <i class="fa fa-chevron-right fa-3x"></i> </a>
+            <div style={{marginTop: "10%", width: "30%"}}> 
+                <a className="nextBtn"onClick={ this.onClickNext } > <i class="fa fa-chevron-right fa-3x"></i> </a>
               {/* ADD LATER style={{margin: "auto", position:"relative", color: "white"}} */}
-                <div className="projName" style={{backgroundColor: "blue"}}>
-                    Project_NAME
+                <div className="projName" style={{backgroundColor: "grey"}}>
+                    <h1>Project_Name</h1>
                 </div>
 
-                <div className="projData" style={{backgroundColor: "red"}}>
-                Project_Data
+                <div className="projData" style={{backgroundColor: "grey"}}>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
                
                 </div>
             

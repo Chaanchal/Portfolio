@@ -9,14 +9,15 @@ import Design from "./component/Design.js";
 class App extends Component{
   render(){
     return(
-      <div style={{ backgroundColor: 'black', paddingLeft: '10%', margin:'0px auto'}}>
-          <div  style={{position: 'fixed', zIndex: '1', width:'20%', top:'0', bottom:'0', left:'0', right: 'auto' }}>  
+      <div style={{ backgroundColor: 'white', margin:'0px', width: '100vw', display:'flex', flexDirection: 'row'}}>
+         
+          <div  style={{position: 'relative', zIndex: '1', width:'20vw'}}>  
             <Navbar/>
           </div>
-          <div style={{width: '70%', margin:'0px auto', maxWidth:'100%'}}>
+          <div style={{margin:'0px 10%', flexDirection:'column',display:'flex', position:'relative', width:'80vw'}}>
             <Project />
-            {/* <Design/>
-            <Contact /> */}
+            <Design/>
+            <Contact />
           </div>
       </div>
     );

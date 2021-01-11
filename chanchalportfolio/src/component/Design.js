@@ -4,9 +4,9 @@ import './Design.css';
 class Design extends Component{
     render(){
         return(
-            <div className="design" style={{ backgroundColor: 'black'}}>
-            <div className="gridGrid" style={{alignItems: 'center', maxHeight: '100vh',width: '100%', margin: '0 auto'}}>
-            <div className= "gridRow">
+            <div className="design" style={{ backgroundColor: 'white'}}>
+            <div className="gridGrid" style={{alignItems: 'center', Height: '100vh', Width: '100%', Margin: '0 auto'}}>
+            <div className= "gridRow" style={{Width: '100%'}}>
                 <div className="column">
                     <div class="cardContainer">
                         <img src={require("./UDTA PANCHI.png")}  alt="Udta Panchi Logo Design" className="cardImage"/>
